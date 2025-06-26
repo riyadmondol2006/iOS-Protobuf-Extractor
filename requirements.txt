@@ -1,0 +1,23 @@
+# iOS Protobuf Extractor - Python Dependencies
+# Author: Riyad Mondol
+# Website: http://reversesio.com/
+# Contact: riyadmondol2006@gmail.com
+
+# Core dependencies for protobuf extraction
+pathlib2>=2.3.0; python_version<"3.4"
+
+# Additional utilities for enhanced analysis
+regex>=2021.0.0
+
+# Optional dependencies for advanced features
+# Uncomment if you want enhanced binary analysis
+# pyelftools>=0.27
+# capstone>=4.0.0
+
+# Development dependencies (optional)
+# pytest>=6.0.0
+# black>=21.0.0
+# flake8>=3.8.0
+
+# Note: This tool uses only Python standard library modules
+# The above dependencies are optional for enhanced functionality
